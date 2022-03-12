@@ -1,0 +1,58 @@
+/** Global Style **/
+main {
+  min-height: 80vh;
+}
+
+a {
+  color: #5a5a5a;
+  text-decoration: none;
+}
+
+/** Header Style **/
+
+header .navbar-light .navbar-brand,
+header .navbar-light .navbar-brand:focus,
+header .navbar-light .navbar-brand:hover {
+  color: #fff;
+}
+
+header .navbar-light .navbar-nav .nav-link,
+header .navbar-light .navbar-nav .nav-link:focus,
+header .navbar-light .navbar-nav .nav-link:hover {
+  color: #fff;
+}
+
+/** Product Style **/
+
+.rating {
+  margin: 15px 0;
+  font-size: 10pt;
+}
+.rating i {
+  color: #f4f400;
+}
+
+.carousel {
+  position: relative;
+  z-index: 1;
+}
+
+.carousel img {
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.carousel:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.4;
+  position: absolute;
+  inset: 0;
+}
+
+.carousel h2 {
+  color: #fff;
+}
